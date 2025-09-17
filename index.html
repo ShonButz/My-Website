@@ -1,11 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=Resources/Views/home.html" />
-    <title>Redirecting...</title>
-  </head>
-  <body>
-    <p>If you are not redirected automatically, <a href="Resources/Views/home.html">click here</a>.</p>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+  <body data-bs-theme="dark">
+    <!-- Navbar -->
+<header class="py-3">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+    <nav class="d-flex gap-5 font-chewy text-center">
+      <a href="index.html" class="text-decoration-none text-light" style="font-size: 30px">Home</a>
+      <a href="hobbies.html" class="text-decoration-none text-light" style="font-size: 30px">Hobbies</a>
+      <a href="projects.html" class="text-decoration-none text-light" style="font-size: 30px">Projects</a>
+    </nav>
+    <!-- Right avatar -->
+    <img src="white-me.jpg" alt="Logo" width="50" height="50" class="rounded-circle">
+  </div>
+  <hr style="border: 5px solid #ffffff; margin: 15px 0;">
+</header>
+    <!-- Homepage main section -->
+    <div class="container my-4">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10">
+          <div class="row g-4 align-items-stretch">
+            
+            <!-- Left: Photo -->
+            <div class="col-md-6">
+              <img src="white-me.jpg" 
+                   width="400" height="400" 
+                   class="img-fluid rounded shadow"
+                   style="display:block; margin:0 auto; position:relative; left:-20px;">
+            </div>
+
+            <!-- Right: About section -->
+            <div class="col-md-6">
+              <div class="p-4 bg-light rounded shadow h-100" style="background-color: white;color: black;">
+                <h2 class="text-center fw-bold font-chewy mb-3">ABOUT ME</h2>
+                <p class="text-center mb-3" style="font-family: 'Times New Roman', Times, serif;" style="color:black;">
+                  Hello, my name is Gregory Shon Butz. I am currently attending University of Colorado Boulder bachelors
+                  in computer science. I hope to take this bachelors degree and transfer to UCCS in pursuit of a masters degree in cyber security.
+                  I am also currently trying to learn more in web development as I find it interesting and in some cases relaxing.
+                  In my spare time, I train myself both physically (through weight training and cardio) and mentally (through vigorious self-studies).
+                  Also spending time with my girlfriend
+                </p>
+                <p class="text-center mb-4" style="font-family: 'Times New Roman', Times, serif;" style="color: black;">
+                    My goals are to create a way of security that can be used by those around the world with ease and having strong integrity, while being easily
+                    accessiable to all people with ease
+                </p>
+                <div class="text-center">
+                  <a href="resume.html" class="btn btn-primary btn-lg fw-semibold" rel="noopener">
+                    Resume
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
+<footer class="py-1 mt-5">
+  <div class="container d-flex justify-content-center gap-5">
+    <!-- Instagram -->
+    <a href="https://instagram.com/cmore_shon_butz1143" target="_blank" class="text-light fs-1">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://linkedin.com/in/GregoryButz" target="_blank" class="text-light fs-1">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <!-- Facebook -->
+    <a href="https://facebook.com/GregoryButz" target="_blank" class="text-light fs-1">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <!-- GitHub -->
+    <a href="https://github.com/ShonButz" target="_blank" class="text-center fs-1">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+</footer>
 </html>
